@@ -14,6 +14,72 @@ body {
 
 .first-container {
     background-color: #1F2937;
+    color: white;
     display: flex;
     flex-direction: column;
+}
+
+.first-container .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first-container .navbar .nav-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-container .navbar .nav-logo {
+    font-weight: bolder;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.nav-elements .nav-header {
+    padding: 20px;
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.first-container .first-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.first-container .first-content .website-desc {
+    max-width: 500px;
+    min-height: 310px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.website-desc .title {
+    transform: translateY(-30px);
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.website-desc .desc {
+    transform: translateY(-30px);
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.website-desc .button {
+    transform: translateY(-30px);
+    width: 100px;
+    height: 40px;
+    color: #F9FAF8;
+    font-weight: bold;
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 10px;
 }
