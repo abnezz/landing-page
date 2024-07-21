@@ -1,1 +1,2 @@
 # landing-page
+The project revolves around building a landing page (i'm using as an example the idea of a traveling company) using only html and css. In particular it will show acquired knowledge in basic html but also basic css, including flex styling.
